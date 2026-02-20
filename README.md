@@ -1,58 +1,50 @@
-# ManualTesting-OrangeHRM
+# OrangeHRM Manual Testing Project
 
+## Project Overview
+This project demonstrates end-to-end **manual testing** of the OrangeHRM web application, which is a Human Resource Management System (HRMS).
 
+The objective of this project is to understand and apply the **Software Testing Life Cycle (STLC)** by performing requirement analysis, test case design, test execution, and defect reporting.
 
-This is a Manual Testing Training, which explain and apply <b>STLC</b> different stages in a functional testing process, it has been tested<b> My Info </b> submodule so it will be used by end users in Orange HRM application. Decision Table is the Technique used to search the effects of combinations of different inputs in uploading components (Photograph , Attachment).
+## Application Under Test (AUT)
+- Application Name: OrangeHRM
+- Application Type: Web-based HR Management System
+- URL: https://opensource-demo.orangehrmlive.com/
 
-Really good practise of how using FRS (Functional Requirements Specifications) document in terms of building test scenarios, explaining composition of the Test Plan (as example), creating funtional test cases, executing them and identifying/reporting bugs to be fixed by developer team.
+## Modules Covered
+- Login
+- My Info Module
+- Employee Information Management
+- Leave Management
+- Logout
 
-## Clone Project
+## Types of Testing Performed
+- Functional Testing
+- UI Testing
+- Smoke Testing
+- Regression Testing
 
-$ git clone https://github.com/suyashpathakqa/OrangeHRM-Manual-Testing
+## Test Artifacts
+- Functional Requirement Specification (FRS)
+- Test Scenarios
+- Test Cases
+- Test Execution Report
+- Bug Report
+- Requirement Traceability Matrix (RTM)
+- Decision Table
 
-$ cd ManualTesting-OrangeHRM
+## Testing Approach
+- Analyzed functional requirements to understand business workflows
+- Designed test scenarios and detailed test cases
+- Executed test cases and documented actual results
+- Identified defects and reported them with severity and priority
+- Used RTM to ensure complete requirement coverage
 
-## Application: Orange HRM
+## Tools Used
+- Microsoft Excel
+- GitHub
 
-URL: https://opensource-demo.orangehrmlive.com
-
--	Human Resource Application
-
--	Developed in MySQL, PHP and Apache HTTP Servers
-
--	Linux Environment
-
-### Two different modules:  
-
-- Admin Module (Just used by HR Team) 
-- ESS (Employee Self Service) Module used by individual employee 
-
-### Pre-requisite
-
-You need to login as Admin account then create ESS user account.
-
-### ESS user account (Data used)
-
-Username: Admin@12345
-
-Password: Admin@123
-
-
-## Testing tasks:
-
-* <b>Version History:</b> Tab reflecting test case main information and comments
-
-* <b>Test Scenarios:</b> Describes end to end functionality to be tested
-
-* <b>Test cases:</b> How to test scenarios – steps to follow up
-
-* <b>Test Execution:</b> Execute test Cases registering expected results against actual results registering pass/fail
-
-* <b>Bug Report:</b> Identifying defects & reporting them to the developer accordingly
-
-* <b>RTM (Requirement Traceability Matrix):</b> Capturing all requirements proposed by the client and requirement traceability in a single document
-
-* <b>Decision Table:</b> Technique used to test system behavior for different input combinations
-
-
-
+## Key Learnings
+- Practical understanding of STLC
+- Test case design techniques
+- Defect life cycle
+- Manual testing in HR domain applications
